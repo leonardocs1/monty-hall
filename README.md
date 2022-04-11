@@ -1,34 +1,40 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Monty Hall
 
-## Getting Started
+Jogo de porta premiada (Monty Hall), a qual o usuário pode escolher a quantidade de portas e a porta a qual está premiada.
 
-First, run the development server:
+![img-1](https://user-images.githubusercontent.com/31082603/162787608-cdae9a72-3433-4dfa-850d-b9f5cf381752.png)
 
-```bash
+![img-2](https://user-images.githubusercontent.com/31082603/162787657-3494d5ce-0f02-404f-af90-7fdbc7db0cfd.png)
+
+## Início
+
+### Pré-requisitos:
+
+Você precisa do NodeJS e NPM instalados em sua máquina.
+
+```
+npm install
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Construído com:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+* [NextJS](https://nextjs.org/) -The React Framework
+for Production.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Como contribuir para o projeto:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Faça um **fork** do projeto.
+2. Crie uma nova branch com as suas alterações: `git checkout -b my-feature`
+3. Salve as alterações e crie uma mensagem de commit contando o que você fez: `git commit -m "feature: My new feature"`
+4. Envie as suas alterações: `git push origin my-feature`
+> Caso tenha alguma dúvida confira este [guia de como contribuir no GitHub](./CONTRIBUTING.md)
 
-## Learn More
+## Author:
 
-To learn more about Next.js, take a look at the following resources:
+* **Leonardo Costa** - [LinkedIn](https://www.linkedin.com/in/leonardocostasantos/)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Licença
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este projeto é licenciado sobre a licença MIT - veja [LICENSE.md](LICENSE.md) para mais informações.
